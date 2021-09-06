@@ -8,11 +8,6 @@
     "start": "next start",
     "lint": "next lint --max-warnings=0"
   },
-  "lint-staged": {
-    "src/**/*": [
-      "next lint --dir src --fix"
-    ]
-  },
   "dependencies": {
     "next": "11.1.2",
     "react": "17.0.2",
